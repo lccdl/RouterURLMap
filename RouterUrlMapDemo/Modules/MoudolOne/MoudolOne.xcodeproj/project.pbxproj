@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C690BBD4260C746E008F5ECC /* MoudolOne.m in Sources */ = {isa = PBXBuildFile; fileRef = C690BBD3260C746E008F5ECC /* MoudolOne.m */; };
+		C690BBD5260C746E008F5ECC /* MoudolOne.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C690BBD2260C746E008F5ECC /* MoudolOne.h */; };
+		F95C3F177D3DEE2601E2AECA /* Pods_RouterUrlMapDemo_MoudolOne.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABDA307F1E8406E589A6E368 /* Pods_RouterUrlMapDemo_MoudolOne.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C690BBCD260C746E008F5ECC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				C690BBD5260C746E008F5ECC /* MoudolOne.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1688BD6590432985221317CC /* Pods-RouterUrlMapDemo-MoudolOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RouterUrlMapDemo-MoudolOne.release.xcconfig"; path = "Target Support Files/Pods-RouterUrlMapDemo-MoudolOne/Pods-RouterUrlMapDemo-MoudolOne.release.xcconfig"; sourceTree = "<group>"; };
+		ABDA307F1E8406E589A6E368 /* Pods_RouterUrlMapDemo_MoudolOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RouterUrlMapDemo_MoudolOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C690BBCF260C746E008F5ECC /* libMoudolOne.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMoudolOne.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C690BBD2260C746E008F5ECC /* MoudolOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoudolOne.h; sourceTree = "<group>"; };
+		C690BBD3260C746E008F5ECC /* MoudolOne.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoudolOne.m; sourceTree = "<group>"; };
+		C6A4F5CA260C965500FF67F6 /* libCommonModul.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCommonModul.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0D20663E9CD000733B37CED /* Pods-RouterUrlMapDemo-MoudolOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RouterUrlMapDemo-MoudolOne.debug.xcconfig"; path = "Target Support Files/Pods-RouterUrlMapDemo-MoudolOne/Pods-RouterUrlMapDemo-MoudolOne.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C690BBCC260C746E008F5ECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95C3F177D3DEE2601E2AECA /* Pods_RouterUrlMapDemo_MoudolOne.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC8BBA5318CD1CDCA64EAFF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6A4F5CA260C965500FF67F6 /* libCommonModul.a */,
+				ABDA307F1E8406E589A6E368 /* Pods_RouterUrlMapDemo_MoudolOne.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C411EB2D3A4FBB18515BF491 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0D20663E9CD000733B37CED /* Pods-RouterUrlMapDemo-MoudolOne.debug.xcconfig */,
+				1688BD6590432985221317CC /* Pods-RouterUrlMapDemo-MoudolOne.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../../Pods;
+			sourceTree = "<group>";
+		};
+		C690BBC6260C746E008F5ECC = {
+			isa = PBXGroup;
+			children = (
+				C690BBD1260C746E008F5ECC /* MoudolOne */,
+				C690BBD0260C746E008F5ECC /* Products */,
+				C411EB2D3A4FBB18515BF491 /* Pods */,
+				AC8BBA5318CD1CDCA64EAFF0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C690BBD0260C746E008F5ECC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C690BBCF260C746E008F5ECC /* libMoudolOne.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C690BBD1260C746E008F5ECC /* MoudolOne */ = {
+			isa = PBXGroup;
+			children = (
+				C690BBD2260C746E008F5ECC /* MoudolOne.h */,
+				C690BBD3260C746E008F5ECC /* MoudolOne.m */,
+			);
+			path = MoudolOne;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C690BBCE260C746E008F5ECC /* MoudolOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C690BBD8260C746E008F5ECC /* Build configuration list for PBXNativeTarget "MoudolOne" */;
+			buildPhases = (
+				5BF787E57036EB4B0D95D6C9 /* [CP] Check Pods Manifest.lock */,
+				C690BBCB260C746E008F5ECC /* Sources */,
+				C690BBCC260C746E008F5ECC /* Frameworks */,
+				C690BBCD260C746E008F5ECC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoudolOne;
+			productName = MoudolOne;
+			productReference = C690BBCF260C746E008F5ECC /* libMoudolOne.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C690BBC7260C746E008F5ECC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					C690BBCE260C746E008F5ECC = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = C690BBCA260C746E008F5ECC /* Build configuration list for PBXProject "MoudolOne" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C690BBC6260C746E008F5ECC;
+			productRefGroup = C690BBD0260C746E008F5ECC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C690BBCE260C746E008F5ECC /* MoudolOne */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BF787E57036EB4B0D95D6C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RouterUrlMapDemo-MoudolOne-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C690BBCB260C746E008F5ECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C690BBD4260C746E008F5ECC /* MoudolOne.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C690BBD6260C746E008F5ECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C690BBD7260C746E008F5ECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C690BBD9260C746E008F5ECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0D20663E9CD000733B37CED /* Pods-RouterUrlMapDemo-MoudolOne.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95P5BWF687;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C690BBDA260C746E008F5ECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1688BD6590432985221317CC /* Pods-RouterUrlMapDemo-MoudolOne.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95P5BWF687;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C690BBCA260C746E008F5ECC /* Build configuration list for PBXProject "MoudolOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C690BBD6260C746E008F5ECC /* Debug */,
+				C690BBD7260C746E008F5ECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C690BBD8260C746E008F5ECC /* Build configuration list for PBXNativeTarget "MoudolOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C690BBD9260C746E008F5ECC /* Debug */,
+				C690BBDA260C746E008F5ECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C690BBC7260C746E008F5ECC /* Project object */;
+}

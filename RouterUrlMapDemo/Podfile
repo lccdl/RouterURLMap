@@ -1,0 +1,30 @@
+
+# ignore all warnings from all pods
+inhibit_all_warnings!
+platform :ios, '8.0'
+
+#disable some warnings
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            #disable some warnings of Pods
+            config.build_settings['CLANG_WARN_DOCUMENTATION_COMMENTS'] = 'NO'
+            config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '8.0'
+        end
+    end
+end
+
+workspace "RouterUrlMapDemo"
+target "RouterUrlMapDemo" do
+  project 'App/RouterUrlMapDemo.xcodeproj'
+  
+  target "CommonModul" do
+    project 'Modules/CommonModul/CommonModul.xcodeproj'
+  
+  end
+  
+  target "MoudolOne" do
+    project 'Modules/MoudolOne/MoudolOne.xcodeproj'
+  end
+  
+end
